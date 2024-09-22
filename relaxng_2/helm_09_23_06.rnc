@@ -1,0 +1,22 @@
+start = root
+root = element root {gameplay, stats, lore}
+
+gameplay = element gameplay {header, effect}
+header = element header {num, text}
+num = attribute num {xsd:integer}
+effect = element effect {text}
+
+stats = element stats {fnd, hsc}
+fnd = element fnd {text}
+hsc = element hsc {text}
+
+lore = element lore {header, item, trNum, estDel, shipMet, shipAdd, shipDet}
+item = element item {text}
+trNum = element trNum {text}
+estDel = element estDel {text}
+shipMet = element shipMet {text}
+shipAdd = element shipAdd {text}
+shipDet = element shipDet {heading, p+}
+
+heading = element heading {text}
+p = element p {num, text}
