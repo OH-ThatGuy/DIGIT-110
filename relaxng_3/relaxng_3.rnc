@@ -1,0 +1,14 @@
+start = root
+#I was having an issue where the 2nd info element kept returning an error in my XML document. I tried using the * and the +, but neither fixed the issue. For now I found that adding a 2nd info into the schema works, but I know there has to be a more elegant soultion than this
+root = element root {info, document, info}
+
+info = element info {text}
+
+document = element document {pg+}
+
+pg = element pg {mixed{num, date?}}
+num = attribute num {xsd:integer}
+date = element date {when, text}
+when = attribute when {xsd:date}
+
+#I realize after completing this shcema that this is quite a short document, so I might add more to this if I need to.

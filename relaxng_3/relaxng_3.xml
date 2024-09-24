@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This a a document from the game Resident Evil-->
+<?xml-model href="relaxng_3.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <info>(It looks like pages from a diary. Some entries are missing.)</info>
+
+    <document>
+        <pg num="1"><date when="1998-05-09">May 9, 1998</date> Played poker tonight with Scott and
+            Alias from Security, and Steve from Research. Steve was the big winner, but I think he
+            was cheating. That scumbag.</pg>
+
+        <pg num="2"><date when="1998-05-09">May 10, 1998</date> One of the higher-ups assigned me to
+            take care of a new creature. It looked like a skinned gorilla to me.</pg>
+
+        <pg num="3">Scott said there'd been an accident in the basement lab. I just knew something
+            like this would happen. Those bastards in Research never sleep, not even on holidays.
+                <date when="1998-05-12">May 12, 1998</date> I've been wearing this damn space suit
+            since yesterday. My skin's getting grimy and feels itchy all over.</pg>
+
+        <pg num="4"><date when="1998-05-16">May 16, 1998</date> A rumor is going around that a
+            researcher who tried to escape the estate last night was shot. My entire body feels hot
+            and itchy and I'm sweaty all the time now. I scratched the swelling on my arm and a
+            piece of rotten flesh just dropped off. What the hell's happening to me?</pg>
+
+        <pg num="5"><date when="1998-05-19">May 19, 1998</date> fever gone but itchy today hungry
+            and eat doggie food</pg>
+
+        <pg num="6">4 / / itchy tasty</pg>
+    </document>
+    <info>(There's a note stuck between the last few pages.)</info>
+</root>
